@@ -1,0 +1,348 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* for drop down icon */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .show {display: block;}
+
+ /* Header part design*/
+.header1{
+    background-color: black;
+    color: rgb(173, 163, 163);
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 20px;
+}
+.second-part{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+header{
+    min-height: 70px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid #ddd; */
+    /* background-color: gray; */
+}
+header ul li{
+    display: inline-block;
+    opacity: 0.8;
+    padding: 0 20px;
+    cursor: pointer;
+}
+header ul li:hover{
+    opacity: 2;
+}
+.headerName{
+    width: 5%;
+    color: rgb(70, 34, 34);
+}
+.headerMiddlePart{
+    width: 75%;
+    text-align: center;
+}
+.headerLastPart{
+    width: 20%;
+    text-align:end;
+}
+/* second part => oxford collection */
+.oxford-collection{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(231, 227, 227, 0.836);
+    border-radius: 20px;
+    display: flex;
+}
+.ox-1{
+    padding-top: 10%;
+    margin-left: 5%;
+    width: 50%;
+}
+.oxford-collection div button{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    color: rgb(70, 34, 34);
+    border: 2px solid rgb(70, 34, 34);
+    cursor: pointer;
+}
+.oxford-collection div button:hover{
+    background: black;
+    color: white;
+}
+.oxford-collection div pre{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0%;
+    padding: 12px 0;
+}
+.ox-2{
+    width: 50%;
+}
+.ox-2 img{
+    display: inline;
+    height: 300px;
+    width: 300px;
+    margin: 10% 0 0 25%;
+
+}
+/* third part */
+.third-part{
+    height: 250px;
+    margin: 20px 0;
+    display: flex;
+}
+.third-part div{
+    width: 33%;
+    text-align: left;
+    padding: 50px;
+}
+.th-p{
+    font-size: 20px;
+    margin: 0%;
+    padding-bottom: 8px;
+}
+/* fourth-part */
+.fourth-part{
+    height: 500px;
+    display: flex;
+}
+.four-1{
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.four-1 img{
+    width: 98.5%;
+    padding-right: 1.5%;
+    height: 500px;
+    border-radius: 25px;
+}
+#four-d h3{
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    font-size: 23px;
+    color: black;
+}
+#four-d pre{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    font-size: 15px;
+}
+#four-d button{
+    position: absolute;
+    top: 29%;
+    left: 10%;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#four-d button:hover{
+    background: blue;
+    color: white;
+}
+.four-2{
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.four-2 img{
+    width: 98.5%;
+    padding-left: 1.5%;
+    height: 500px;
+    border-radius: 25px;
+}
+/* fifth part */
+.fifth-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+/* sixth-part */
+.six-part{
+    height: 270px;
+    display: flex;
+}
+.six-four{
+    height: 270px;
+    width: 24%;
+    border-radius: 20px;
+    margin-right: 1%;
+    position: relative;
+}
+.six-four img{
+    width: 100%;
+    height: 270px;
+    border-radius: 25px;
+}
+.six-four .one{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    font-size: 23px;
+    cursor: pointer;
+}
+.six-four .one:hover{
+    color: green;
+}
+.six-four .two{
+    position: absolute;
+    bottom: 19%;
+    left: 10%;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(85, 79, 79);
+}
+.six-four .three{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 15px;
+    color: rgb(105, 92, 92);
+}
+.six-four .four{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* seven part */
+.seven-part{
+    height: 270px;
+    width: 100%;
+    background-color: rgba(231, 227, 227, 0.836);
+    border-radius: 20px;
+    display: flex;
+    margin-top: 5%;
+
+}
+.seven-part img{
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+}
+.seven-1{
+    padding-top: 3%;
+    margin-left: 5%;
+    width: 50%;
+}
+.seven-2{
+    width: 50%;
+}
+.seven-2 img{
+    display: inline;
+    height: 250px;
+    width: 50%;
+    margin: 10px 0 0 25%;
+}
+.seven-part input{
+    height: 25px;
+    width: 250px;
+    border-radius: 50px;
+    border: 1px solid rgb(149, 120, 120);
+    outline: none;
+    background-color: rgba(231, 227, 227, 0.836);
+}
+/* eight-part */
+.eight-part{
+    width: 100%;
+    height: 220px;
+    margin-top: 40px;
+    background-color: rgb(32, 29, 29);
+}
+.eight-1{
+    width: 88%;
+    height: 150px;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+}
+.eight-1 .eight-one{
+    width: 20%;
+}
+.eight-1 .eight-one pre{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.eight-1 .eight-one b{
+    font-weight: bold;
+    color: rgb(151, 146, 146);
+    padding-right: 10px;
+    cursor: pointer;
+}
+.eight-1 .eight-two{
+    width: 17%;
+    margin-top: 3%;   
+}
+.eight-b{
+    color: white;  
+    font-size: 15px;
+}
+.eight-p{
+    color:  rgb(151, 146, 146);
+    font-size: 12px;
+}
+.eight-1 .eight-three{
+    width: 17%;
+    margin-top: 3%;
+}
+.eight-1 .eight-four{
+    width: 17%;
+    margin-top: 3%;
+}
+.eight-1 .eight-five{
+    width: 17%;
+    margin-top: 3%;
+}
+
+.eight-2{
+    width: 88%;
+    height: 70px;
+    border-top: 1px solid rgb(105, 99, 99);
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.eight-2 p i,b{
+    padding-right: 25px;
+    color:  rgb(151, 146, 146);
+    cursor: pointer;
+}
